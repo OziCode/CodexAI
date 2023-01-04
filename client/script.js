@@ -16,7 +16,7 @@ function loader(element){
     loadInterval = setInterval(()=>{
         //Dodawanie kropki co 300ms
         element.textContent +='.';
-        if (element.textContent ==='...'){
+        if (element.textContent ==='....'){
             element.textContent = '';
         }
     },300);
