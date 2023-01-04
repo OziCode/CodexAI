@@ -89,7 +89,7 @@ const messageDiv = document.getElementById(uniqueId);
 loader(messageDiv);
 
 //Pobieranie odpowiedzi od bota
-const response = await fetch('http://localhost:5000/', {
+const response = await fetch('https://codexai-zeu6.onrender.com/', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'
